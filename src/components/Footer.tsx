@@ -20,7 +20,7 @@ const Footer = () => {
           {pathsToMinimize.includes(pathname) ? null : (
             <div className='pb-8 pt-16'>
               <div className='flex justify-center'>
-                <Icons.logo className='h-12 w-auto' />
+                <Icons className='h-12 w-auto' height={60} width={60} />
               </div>
             </div>
           )}

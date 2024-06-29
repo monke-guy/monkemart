@@ -40,17 +40,17 @@ export const ReceiptEmail = ({
   return (
     <Html>
       <Head />
-      <Preview>Your DigitalHippo Receipt</Preview>
+      <Preview>Your MonkeMart Receipt</Preview>
 
       <Body style={main}>
         <Container style={container}>
           <Section>
             <Column>
               <Img
-                src={`${process.env.NEXT_PUBLIC_SERVER_URL}/hippo-email-sent.png`}
+                src={`${process.env.NEXT_PUBLIC_SERVER_URL}/monke-email-sent.png`}
                 width='100'
                 height='100'
-                alt='DigitalHippo'
+                alt='MonkeMart Logo'
               />
             </Column>
 
@@ -188,7 +188,7 @@ export const ReceiptEmail = ({
             <Link href='#'>Privacy Policy </Link>
           </Text>
           <Text style={footerCopyright}>
-            Copyright © 2023 DigitalHippo Inc. <br />{' '}
+            Copyright © 2023 MonkeMart Inc. <br />{' '}
             <Link href='#'>All rights reserved</Link>
           </Text>
         </Container>

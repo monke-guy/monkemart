@@ -11,7 +11,7 @@ export const PRODUCT_CATEGORIES = [
       {
         name: 'New Arrivals',
         href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        imageSrc: '/nav/ui-kits/orange.jpg',
       },
       {
         name: 'Bestsellers',
