@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@monkeguy',
     },
     icons,
-    metadataBase: new URL('https://digitalhippo.up.railway.app'),
+    metadataBase: new URL('https://monkemart.live/'),
     ...(noIndex && {
       robots: {
         index: false,
