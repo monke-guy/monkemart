@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "monkemart.live",
+				hostname: "https://monkemart.live/",
 			},
 		],
 	},
